@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./cssfile.css">
+    <title>My CV site</title>
+</head>
+
+<body>
+    <!--encabezado-->
+    <div id="main_card" class="tarjeta clase_generica">
+        <header>
+            <h1>Currículum-Desarrollador web</h1>
+            <hr size="10" width="100%" color="brown">
+
+            <nav class="nav">
+                <ul class="ul_1">
+                    <li class="li_1"><a href="#About"><button class="button"><span>Sobre mi</span></button></a></li>
+                    <li class="li_1"><a href="#Contact"><button class="button"><span>Contacto</span></button></a></li>
+                    <li class="li_1"><a href="#Idioma"><button class="button"><span>Idioma</span></button></a></li>
+                    <li class="li_1"><a href="#Port"><button class="button"><span>Portfolio</span></button></a></li>
+                    <li class="li_1"><a href="#Abilities"><button class="button"><span>Habilidades
+                                    tecnicas</span></button></a></li>
+                    <li class="li_1"><a href="#Lang"><button class="button"><span>Lenguajes</span></button></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <div class="box">
+                <img src="./Rusell.jpg" alt="Imagen de Rusell" width=auto height=300>
+                <div>
+                    <h2 id="About">Sobre mi </h2>
+                    <hr size="2" width="100%" color="gray">
+                    <p>Me gusta aprovechar todos los recursos online disponibles con el afán de ser
+                        un desarrollador capaz de encontrar soluciones sofisticadas a problemas complejos
+                        y/o robustos. Soy capaz de la autogestión eficaz en proyectos independientes y cuento
+                        con las habilidades para colaboración dentro de un equipo productivo.
+                    </p>
+                </div>
+            </div>
+
+            <h2 id="Contact"><span>Contacto</span></h2>
+            <hr class="linea" align="left">
+            <p>Telefono: (908)632-7283
+                <br>
+                E-mail:russell.perkins@gmail.com
+            </p>
+
+            <h2 id="Idioma"><span>Idioma</span></h2>
+            <hr class="linea" align="left">
+            <p>
+                <li>Español</li>
+                <li> Ingles</li>
+            </p>
+
+
+            <div>
+                <h2 id="Port"><span>Portfolio </span><i class="glyphicon glyphicon-cloud"
+                        style="font-size:30px;color:lightblue;text-shadow:2px 2px 4px #000000;"></i></h2>
+            </div>
+
+            <hr class="linea" align="left">
+            <p>
+                <li><a href="">Github</a></li>
+                <li><a href="">Behance</a></li>
+                <li><a href="">Links a sitios web desarrollados</a></li>
+            </p> <!--Esta seccion serian hipervinculos a sitios reales.-->
+
+            <h2 id="Abilities"><span>Habilidades tecnicas</span></h2>
+            <hr class="linea" align="left">
+            <p>Lenguajes de programacion:</p>
+            <br>
+
+            <li> PHP </li>
+            <li> Javascript </li>
+            <li> Python </li>
+
+
+            <h2 id="Lang"><span>Lenguajes</span></h2>
+            <hr class="linea" align="left">
+            <h3 onclick="MostrarLista_1()">Desarrollo web Frontend: <i class="arrow down"></i></h3>
+            <ul id="items">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>React</li>
+            </ul>
+
+            <h3 onclick="MostrarLista_2()">Desarrollo web Backend: <i class="arrow down"></i></h3>
+            <ul id="items_2">
+                <li>Laravel</li>
+                <li>Django</li>
+                <li>MongoDB</li>
+                <li>MySQL</li>
+            </ul>
+            </p>
+
+            <h2><span>Fuentes</span></h2>
+            <hr class="linea" align="left">
+            <li>Platzi</li>
+            <li> Udemy</li>
+            <li>Codigo facilito</li>
+            </p>
+
+        </main>
+    </div>
+    <script src="javafile.js"></script>
+</body>
+
+</html>
